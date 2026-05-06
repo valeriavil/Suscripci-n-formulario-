@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background: #fff0f5;
+}
+
+.suscripcion {
+    background: #f8c8dc;
+    padding: 50px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 300px;
+    margin: auto;
+}
+
+input, button {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    background: #ff69b4;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e0559d;
+}
+
+.checkbox {
+    font-size: 14px;
+}
